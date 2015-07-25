@@ -1,6 +1,5 @@
-body
-{
-    background-image:  url("../images/smallrect.png"), url("../images/background.jpg");
+body {
+    background-image: url("../images/smallrect.png"), url("../images/background.jpg");
     background-repeat: repeat, no-repeat;
     background-position: left top, left top;
     background-attachment: fixed;
@@ -10,4 +9,27 @@ body
 
     font-family: 'Microsoft YaHei Light';
     color: burlywood;
+}
+
+.btn-github {
+    border: 2px solid #9b8c67;
+    background-color: transparent !important;
+    border-color: #9b8c67 !important;
+    color: #9b8c67 !important;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transform-origin: 50% 50% 0px;
+
+    transition-property: background-color, color;
+
+    transition-duration: 500ms;
+    -moz-transition-duration: 500ms; /* Firefox 4 */
+    -webkit-transition-duration: 500ms; /* Safari ºÍ Chrome */
+    -o-transition-duration: 500ms; /* Opera */
+
+}
+
+.btn-github:hover {
+    background-color: #9b8c67 !important;
+    color: #1f2324 !important;
 }
