@@ -1,0 +1,13 @@
+body
+{
+    background-image:  url("../images/smallrect.png"), url("../images/background.jpg");
+    background-repeat: repeat, no-repeat;
+    background-position: left top, left top;
+    background-attachment: fixed;
+    background-size: auto, 100% 100%;
+
+    padding: 60px;
+
+    font-family: 'Microsoft YaHei Light';
+    color: burlywood;
+}
